@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html,
+        body,
+        .wrapper {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            background: #2b2e56;
+        }
+
+        .wrapper {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(4, 25%);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px;
+            grid-template-areas:
+                "aside sidebar sidebar header"
+                "aside main content side"
+                "aside main1 main2 side"
+            ;
+        }
+
+        aside {
+            grid-area: aside;
+            background: #6dbe4f;
+        }
+
+        .header {
+            grid-area: header;
+            background: #ec3437;
+        }
+
+        .main {
+            grid-area: main;
+            background: #fbb22f;
+        }
+
+        .main1 {
+            grid-area: main1;
+            background: #ec3437;
+        }
+
+        .main2 {
+            grid-area: main2;
+            background: #fbb22f;
+        
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background: #6dbe4f;
+        }
+
+        .side {
+            grid-area: side;
+            background: #6dbe4f;
+        }
+
+        .content {
+            grid-area: content;
+            background: #ec3437;
+        }
+    </style>
+    <title>Grid_Layout</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside></aside>
+        <div class="header"></div>
+        <div class="main"></div>
+        <div class="sidebar"></div>
+        <div class="side"></div>
+        <div class="content"></div>
+        <div class="main1"></div>
+        <div class="main2"></div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #eaeaea;
+  margin: 0;
+}
+.content {
+  margin: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f5f5;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  height: 6rem;
+}
+
+.header__icon-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: ;
+}
+.header__search {
+  color: #757b74;
+  font-size: small;
+  padding: 10px;
+}
+.header__img {
+  color: black;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+.navsetcard {
+  background-color: #eaeaea;
+  height: 100vh;
+  width: calc(100% / 2);
+  margin: 0 2px 0 0;
+  display: flex;
+}
+.main__information {
+  background-color: #eaeaea;
+  height: 100vh;
+  width: calc(100% / 2);
+  margin: 0 0 0 1px;
+}
+.navset {
+  width: 30%;
+  margin: 0 1px 0 0;
+  height: 100vh;
+  background-color: #eaeaea;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  width: 70%;
+  margin: 0 0 0 2px;
+  height: 93, 5vh;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.nav,
+.total {
+  background-color: white;
+  height: 40vh;
+  width: 100%;
+  margin: 0 0 1px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.settings {
+  background-color: white;
+  height: 60vh;
+  width: 100%;
+  margin: 1px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.potential {
+  background-color: white;
+  height: 60vh;
+  width: 100%;
+  margin: 1px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  color: #757b74;
+}
+h5 {
+  padding: 10px 0 10px 20px;
+  font-size: small;
+}
+.h5__center {
+  text-align: center;
+  font-size: x-small;
+  padding: 10px 0 10px 0;
+}
+
+h1 {
+  padding: 10px 0 10px 20px;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.h1__center {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.set {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.foot {
+  display: flex;
+  flex-direction: column;
+}
+.foot__button {
+  width: 150px;
+  height: 30px;
+  margin: auto;
+  background-color: black;
+  color: white;
+}
+
+.credit_card__info {
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+  background-color: #89f8b7;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.credit_card__numcvv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 40px 0 10px;
+  color: white;
+  background-color: black;
+}
+.credit_card__numcvv:num {
+  display: flex;
+  flex-direction: column;
+}
+.credit_card__numcvv:cvv {
+  display: flex;
+  flex-direction: column;
+}
+.credit_card {
+  box-shadow: 0px 8px 20px -5px #d5e9e1;
+  height: 54mm;
+  width: 86mm;
+}
+.info__block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info__block__name {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.info__block__name1 {
+  text-align: center;
+  font-size: x-small;
+  padding: 10px 0 10px 0;
+}
+.total__ifno {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+.total_amound {
+  box-shadow: 0px 8px 20px -5px #d5e9e1;
+}
+.total_amound__info {
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  background-color: #89f8b7;
+  padding: 10px;
+  justify-content: space-between;
+}
+.portfolio {
+  width: calc(100% / 3 - 2rem);
+  background-color: #ffffff;
+  box-shadow: 0px 7px 29px 0px #d5e9e1;
+}
+.h1__portfolio {
+  font-size: small;
+}
+.h5__portfolio {
+  font-size: x-small;
+}
+.info__poten__card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
