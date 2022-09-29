@@ -9,3 +9,5 @@
 [Homework 01.09.2022](https://github.com/ShumaW/FE_basic/tree/master/Homework_20220901)
 
 [Homework 22.09.2022](https://github.com/ShumaW/FE_basic/tree/master/Homework_20220922)
+
+[Задание по Grid](https://shumaw.github.io/FE_basic/20220929.html)
